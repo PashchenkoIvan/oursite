@@ -1,0 +1,18 @@
+.container {
+    @apply w-screen h-[80px] flex items-center justify-center md:justify-end
+    pr-0 md:pr-[80px] lg:pr-[140px];
+}
+
+.block {
+    @apply w-full max-w-[300px] flex items-center justify-between;
+}
+.links {
+    @apply text-white cursor-pointer relative;
+}
+
+/*TODO: Create animation for links*/
+
+.block a:last-child {
+    @apply px-[10px] py-[5px] text-white
+    bg-gradient-to-r from-[#c0392b] to-[#8e44ad];
+}
