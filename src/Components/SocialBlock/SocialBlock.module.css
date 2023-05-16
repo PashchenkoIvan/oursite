@@ -1,0 +1,9 @@
+.socialNetwork {
+    @apply w-1/2 flex items-center justify-between border-none mt-[20px];
+}
+.socialLink {
+    @apply border-none;
+}
+.socialLink svg {
+    @apply h-[30px] fill-white cursor-pointer;
+}
