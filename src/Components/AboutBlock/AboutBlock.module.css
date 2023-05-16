@@ -1,0 +1,24 @@
+.container {
+    @apply w-screen
+    px-[15px] md:px-[80px] lg:px-[140px] pt-[100px];
+}
+
+.title {
+    @apply text-5xl text-white font-bold;
+}
+
+.block {
+    @apply w-full flex flex-col items-center justify-evenly mt-[30px];
+}
+
+.infoBlock {
+    @apply w-full h-[250px] border-b border-b-white p-[20px] flex items-center justify-between;
+}
+
+.image {
+    @apply w-1/5 h-full;
+    background-image: url("../../images/image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

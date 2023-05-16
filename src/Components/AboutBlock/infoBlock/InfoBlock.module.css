@@ -1,0 +1,23 @@
+.infoBlock {
+    @apply w-full h-[250px] border-b border-b-white p-[20px] flex items-center justify-between;
+}
+
+.image {
+    @apply w-1/5 h-full;
+}
+
+.image img {
+    @apply w-full h-full;
+}
+
+.info {
+    @apply w-4/5 h-full ml-[20px];
+}
+
+.info h2 {
+    @apply text-3xl text-white;
+}
+
+.info p {
+    @apply text-xl text-white;
+}

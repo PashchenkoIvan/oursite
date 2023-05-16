@@ -1,6 +1,6 @@
 .container {
-    @apply w-screen h-[calc(100vh-80px)] relative flex flex-col sm:flex-row sm:justify-between
-    px-0 md:px-[80px] lg:px-[140px] pt-[100px];
+    @apply w-screen relative flex flex-col sm:flex-row sm:justify-between
+    px-[15px] md:px-[80px] lg:px-[140px] pt-[100px] py-[50px];
 }
 
 .leftBlock {
